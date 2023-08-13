@@ -1,0 +1,52 @@
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    cursor: none;
+    cursor: url(../img/cursor.png), auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-start {
+    width: 100wh;
+    /* background-image: url(../img/1.png); */
+    /* overflow: scroll; */
+    /* overflow: visible; */
+}
+
+.welcome-start img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* About me */
+.aboutme {
+    height: 982px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mobile-container img {
+    height: 700px;
+    margin: 10%;
+}
+
+.mobile-container img #myphoto {
+    height: 200px;
+}
+
+.aboutme-text {
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    padding: 40px;
+    background-color: #0C6DFF;
+    color: #ffffff;
+    border-radius: 25px;
+    align-items: center;
+}
